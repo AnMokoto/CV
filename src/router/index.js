@@ -10,7 +10,10 @@ const router = new Router({
     {
       path: '/',
       name: 'home',
-      component: view.index
+      component: view.index,
+      meta: {
+        title: 'yoyoyo~~~'
+      }
     },
     // {
     //   path: '/about',
@@ -24,5 +27,11 @@ const router = new Router({
 })
 
 router.addRoutes(cv)
+
+router.afterEach((to) => {
+  if (to.meta && to.meta.title) {
+    document.title = to.meta.title
+  }
+})
 
 export default router
