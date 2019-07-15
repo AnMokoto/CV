@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "npm run build && \\cp -r -f -a./dist/* /data/www/cv && \\cp -r -f -a ./nginx.conf /etc/nginx/conf.d/cv.conf && systemctl reload nginx",
+    "deploy": "yarn install && yarn build && \\cp -r -f -a ./dist/* /data/www/cv && \\cp -r -f -a ./nginx.conf /etc/nginx/conf.d/cv.conf && systemctl reload nginx",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
