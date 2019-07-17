@@ -3,10 +3,10 @@
     <h3>技术范畴：</h3>
     <el-row :gutter="10">
 
-      <el-col :sm="chartSpan" :xs="24" :md="24">
+      <el-col :sm="chartSpan" :xs="24">
         <div id="skill"></div>
       </el-col>
-      <el-col :sm="detailSpan" :xs="24" :md="24">
+      <el-col :sm="detailSpan" :xs="24">
         <transition name="el-fade-in">
           <div v-show="detail" v-html="detail" class="skill-box"></div>
         </transition>
