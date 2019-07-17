@@ -181,52 +181,95 @@ const request = {
         {
           name: 'Android',
           scope: 80,
-          percent: 0.8
+          percent: 0.80,
+          detail: '<h3>Android</h3>' +
+            '<ul>' +
+            '<li>丰富的手机UI设计开发经验,良好的编程基础</li>' +
+            '<li>多年的社交、钱包交易和直播经验</li>' +
+            '<li>熟练自定义view编程、熟悉网络编程、多线程、图形界面编程、通讯协议等</li>' +
+            '<li>熟悉Android性能及内存调优，能够对移动应用进行性能分析和优化</li>' +
+            '<li>能独立承担Android产品开发、喜欢和善于学习新的技术和开源框架</li>' +
+            '</ul>'
         },
         {
           name: 'Java',
-          scope: 80,
-          percent: 0.8
+          scope: 70,
+          percent: 0.70,
+          detail: '<h3>Java</h3>' +
+            '<ul>' +
+            '<li>扎实的语言基础</li>' +
+            '<li>熟悉集合、IO、多线程、纤程、反射、长链接等开发</li>' +
+            '<li>Java7 - Java8</li>' +
+            '</ul>'
         },
         {
           name: 'Kotlin',
           scope: 80,
-          percent: 0.8
+          percent: 0.8,
+          detail: '<h3>Kotlin</h3>' +
+            '<ul>' +
+            '<li>良好的编程基础</li>' +
+            '<li>熟练使用函数式和协程、反射等开发</li>' +
+            '<li>熟练使用lambda表达式和开发Android</li>' +
+            '</ul>'
         },
         {
           name: 'Flutter',
           scope: 67,
-          percent: 0.67
+          percent: 0.67,
+          detail: '<h3>Flutter</h3>' +
+            '<ul>' +
+            '<li>熟悉使用Dart编程、良好的编程基础</li>' +
+            '<li>熟悉Flutter开发三端应用</li>' +
+            '<li><a href="https://github.com/AnMokoto/EmptyName.git">参照</a></li>' +
+            '</ul>'
         },
         {
           name: 'Go',
           scope: 35,
-          percent: 0.35
+          percent: 0.35,
+          detail: '<h3>Go</h3>' +
+            '<ul>' +
+            '<li>熟悉IO、协程、Channel、Rpc gRpc等开发</li>' +
+            '<li>有gin框架开发经验</li>' +
+            '</ul>'
         },
         {
           name: 'Python',
-          scope: 35,
-          percent: 0.35
-        },
-        {
-          name: 'Nginx',
-          scope: 55,
-          percent: 0.55
+          scope: 45,
+          percent: 0.45,
+          detail: '<h3>Python</h3>' +
+            '<ul>' +
+            '<li>依赖DJango框架的使用和开发</li>' +
+            '<li>熟悉语法和开发规范、语法糖等</li>' +
+            '</ul>'
         },
         {
           name: 'CentOS',
           scope: 55,
-          percent: 0.55
+          percent: 0.55,
+          detail: '<h3>CentOS</h3>' +
+            '<ul>' +
+            '<li>熟练使用基础和常用命令</li>' +
+            '<li>有对搭建Docker容器和配置的经验</li>' +
+            '<li>熟练使用Nginx 搭建和部署服务</li>' +
+            '<li>有对服务自启动、一键配置启动、存活和容灾的处理经验</li>' +
+            '</ul>'
         },
         {
           name: 'JS',
           scope: 60,
-          percent: 0.6
+          percent: 0.6,
+          detail: ''
         },
         {
           name: 'Vue',
           scope: 72,
-          percent: 0.72
+          percent: 0.72,
+          detail: '<h3>Vue</h3>' +
+            '<ul>' +
+            '<li>本网站搭建：<br/>Vue + VRouter + Axios + Mock + G2 等 [<a href="https://raw.githubusercontent.com/AnMokoto/CV/master/package.json">target</a>]</li>' +
+            '</ul>'
         }
       ]
     }
