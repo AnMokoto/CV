@@ -1,8 +1,9 @@
 <template>
   <section class="el-container container-vertical">
     <el-tooltip placement="left" :content="data.name">
-      <el-image :src="data.avatar" :alt="data.name" fit="contain"></el-image>
+      <el-image :src="data.avatar" :alt="data.name" v-show="true"></el-image>
     </el-tooltip>
+    <span class="mine-print" v-show="false">{{data.name}}</span>
     <el-divider></el-divider>
     <el-row :gutter="15">
       <el-col :span="6" align="center" :offset="3">
@@ -71,6 +72,7 @@ export default {
 
   @media print
     .mine-print
+      text-align center
       display inline-block !important
       overflow visible
       white-space nowrap
