@@ -140,7 +140,7 @@ const request = {
             '</section>' +
             '</article>' +
             '<article>' +
-            '<h3>微信小程序（截止未上线）</h3>' +
+            '<h3>微信小程序（中国平安生态城）</h3>' +
             '<section style="padding-left: 1rem;">' +
             '<h4>项目职责：</h4>' +
             '<span>主程该应用的开发任务。</span>' +
@@ -173,6 +173,12 @@ const request = {
               image: 'https://os.ozukus.com/uploadfile/20190620/20190620223945_7609.png',
               href: 'https://os.ozukus.com/womai/',
               enable: true
+            },
+             {
+              name: '中国平安生态城',
+              image: './images/931852566.png',
+              href: '',
+              enable: false
             }
           ]
         }
