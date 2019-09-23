@@ -174,7 +174,7 @@ const request = {
               href: 'https://os.ozukus.com/womai/',
               enable: true
             },
-             {
+            {
               name: '中国平安生态城',
               image: './images/931852566.png',
               href: '',
@@ -188,6 +188,7 @@ const request = {
           name: 'Android',
           scope: 80,
           percent: 0.80,
+          print: true,
           detail: '<h3>Android</h3>' +
             '<ul>' +
             '<li>丰富的手机UI设计开发经验,良好的编程基础</li>' +
@@ -201,6 +202,7 @@ const request = {
           name: 'Java',
           scope: 70,
           percent: 0.70,
+          print: true,
           detail: '<h3>Java</h3>' +
             '<ul>' +
             '<li>扎实的语言基础</li>' +
@@ -212,6 +214,7 @@ const request = {
           name: 'Kotlin',
           scope: 80,
           percent: 0.8,
+          print: true,
           detail: '<h3>Kotlin</h3>' +
             '<ul>' +
             '<li>良好的编程基础</li>' +
@@ -223,6 +226,7 @@ const request = {
           name: 'Flutter',
           scope: 67,
           percent: 0.67,
+          print: true,
           detail: '<h3>Flutter</h3>' +
             '<ul>' +
             '<li>熟悉使用Dart编程、良好的编程基础</li>' +
@@ -234,6 +238,7 @@ const request = {
           name: 'Go',
           scope: 35,
           percent: 0.35,
+          print: true,
           detail: '<h3>Go</h3>' +
             '<ul>' +
             '<li>熟悉IO、协程、Channel、Rpc gRpc等开发</li>' +
@@ -254,6 +259,7 @@ const request = {
           name: 'CentOS',
           scope: 55,
           percent: 0.55,
+          print: true,
           detail: '<h3>CentOS</h3>' +
             '<ul>' +
             '<li>熟练使用基础和常用命令</li>' +
@@ -266,12 +272,13 @@ const request = {
           name: 'JS',
           scope: 60,
           percent: 0.6,
-          detail: ''
+          detail: null
         },
         {
           name: 'Vue',
           scope: 72,
           percent: 0.72,
+          print: true,
           detail: '<h3>Vue</h3>' +
             '<ul>' +
             '<li>本网站搭建：<br/>Vue + VRouter + Axios + Mock + G2 等 [<a href="https://raw.githubusercontent.com/AnMokoto/CV/master/package.json">target</a>]</li>' +

@@ -1,6 +1,6 @@
 <template>
   <section class="el-container container-vertical">
-    <el-tooltip placement="left" :content="data.name">
+    <el-tooltip placement="left" :content="data.name" class="mine-print-dis">
       <el-image :src="data.avatar" :alt="data.name" v-show="true"></el-image>
     </el-tooltip>
     <span class="mine-print" v-show="false">{{data.name}}</span>
@@ -22,7 +22,7 @@
           </el-link>
         </el-tooltip>
       </el-col>
-      <el-col :span="6" align="center">
+      <el-col :span="6" align="center" class="mine-print-dis">
         <el-tooltip placement="top" effect="dark" :content="data.college">
           <el-link :underline="false" :disabled="true">
             <el-icon class="el-icon-reading"></el-icon>
@@ -43,7 +43,7 @@ export default {
       required: false,
       default: () => {
         return {
-          name: 'Mr.Xu',
+          name: 'Mr.Xu 许石苗',
           avatar: 'images/2691563168619_.pic.jpg',
           email: 'chinaume@163.com',
           phone: '+8613265779495',
@@ -70,11 +70,15 @@ export default {
     width 58% !important
     margin 1rem auto !important
 
+
   @media print
     .mine-print
       text-align center
       display inline-block !important
       overflow visible
       white-space nowrap
+
+    .mine-print-dis
+      display none
 
 </style>

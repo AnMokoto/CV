@@ -24,7 +24,7 @@
                   </article>
                 </el-col>
                 <el-col :span="6" :xs="24" :sm="6" :md="6">
-                  <el-row :gutter="15">
+                  <el-row :gutter="15" class="c-company-cover">
                     <template v-for="(pro,index) in (item.product||[]) ">
                       <el-col :key="index" :span="12" :sm="24" :md="12" align="center">
                         <el-tooltip placement="top" effect="dark" :content="pro.name">
@@ -71,6 +71,9 @@ export default {
   @media print
     .c-company-content
       display block !important
+
+    .c-company-cover
+      display none !important;
 
   >>> .el-button
     border-color transparent

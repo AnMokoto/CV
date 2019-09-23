@@ -6,6 +6,7 @@ import * as view from '@/views'
 Vue.use(Router)
 
 const router = new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',

@@ -4,11 +4,17 @@
     <el-row :gutter="10">
 
       <el-col :sm="chartSpan" :xs="24">
-        <div id="skill"></div>
+        <div id="skill" class="mine-print-dis"></div>
       </el-col>
       <el-col :sm="detailSpan" :xs="24">
-        <transition name="el-fade-in">
-          <div v-show="detail" v-html="detail" class="skill-box"></div>
+        <template v-for="(item,index) in data">
+          <div class="mine-print" :key="index" v-show="false"
+               style="width: 100% !important;text-align: left;">
+            <div v-html="item.detail" class="skill-box" v-show="item.print"></div>
+          </div>
+        </template>
+        <transition name="el-fade-in" tag="div">
+          <div v-show="detail" v-html="detail" class="skill-box mine-print-dis"></div>
         </transition>
       </el-col>
     </el-row>
@@ -126,10 +132,20 @@ export default {
     box-sizing border-box
 
   .skill-box
-    max-height 100%
-    height 15rem
+    width 100%
     overflow scroll
 
     >>> li
       font-size 0.85rem
+
+
+  @media print
+    .mine-print
+      text-align center
+      display inline-block !important
+      overflow visible
+      white-space nowrap
+
+    .mine-print-dis
+      display none
 </style>
