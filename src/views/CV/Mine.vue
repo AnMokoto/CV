@@ -3,10 +3,10 @@
     <el-tooltip placement="left" :content="data.name" class="mine-print-dis">
       <el-image :src="data.avatar" :alt="data.name" v-show="true"></el-image>
     </el-tooltip>
-    <span class="mine-print" v-show="false">{{data.name}}</span>
+    <span class="mine-print" v-show="false">{{data.realName}}</span>
     <el-divider></el-divider>
-    <el-row :gutter="15">
-      <el-col :span="6" align="center" :offset="3">
+    <el-row type="flex" justify="space-around">
+      <el-col :span="6" align="center">
         <el-tooltip placement="top" effect="dark" :content="data.phone">
           <el-link :underline="false" :href="`tel:${data.phone}`">
             <el-icon class="el-icon-mobile-phone"></el-icon>
@@ -22,6 +22,16 @@
           </el-link>
         </el-tooltip>
       </el-col>
+
+      <el-col :span="6"  align="center">
+        <el-tooltip placement="top" effect="dark" :content="data.github">
+          <el-link :underline="false" :href="data.github">
+            <el-icon class="el-icon-cpu"></el-icon>
+            <span class="mine-print" v-show="false">{{data.github}}</span>
+          </el-link>
+        </el-tooltip>
+      </el-col>
+
       <el-col :span="6" align="center" class="mine-print-dis">
         <el-tooltip placement="top" effect="dark" :content="data.college">
           <el-link :underline="false" :disabled="true">
@@ -43,9 +53,11 @@ export default {
       required: false,
       default: () => {
         return {
-          name: 'Mr.Xu 许石苗',
+          name: 'Mr.Xu',
+          realName: '许石苗',
           avatar: 'images/2691563168619_.pic.jpg',
           email: 'chinaume@163.com',
+          github: 'https://github.com/AnMokoto',
           phone: '+8613265779495',
           college: '华南理工大学 大专'
         }
@@ -64,6 +76,7 @@ export default {
     margin 0 auto !important
 
   >>> .el-link
+    white-space: nowrap;
     color: #606266 !important
 
   >>> .el-divider--horizontal
@@ -73,6 +86,7 @@ export default {
 
   @media print
     .mine-print
+      font-size 0.8rem !important
       text-align center
       display inline-block !important
       overflow visible

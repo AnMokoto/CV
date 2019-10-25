@@ -30,6 +30,7 @@
                         <el-tooltip placement="top" effect="dark" :content="pro.name">
                           <el-link :href="pro.href" :underline="false" target="_blank" :disabled="!pro.enable">
                             <el-image :alt="pro.name" :src="pro.image"></el-image>
+                            <el-tag size="small" type="success">{{pro.name}}</el-tag>
                           </el-link>
                         </el-tooltip>
                       </el-col>
@@ -73,7 +74,7 @@ export default {
       display block !important
 
     .c-company-cover
-      display none !important;
+      display block !important;
 
   >>> .el-button
     border-color transparent
@@ -83,8 +84,11 @@ export default {
     box-sizing border-box
 
   >>> .el-image
+    width 100%
+    height 100%
     max-width 100px
-    max-height 100px
+    overflow hidden
+    object-fit contain
 
   >>> .el-col
     margin-top 5px

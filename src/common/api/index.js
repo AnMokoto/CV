@@ -98,7 +98,7 @@ const request = {
           product: [
             {
               name: '互娱直播',
-              image: 'https://img.anfensi.com/upload/2018-9/20189141533266297.png',
+              image: './images/20189141533266297.png',
               href: '',
               enable: false
             }
@@ -140,6 +140,15 @@ const request = {
             '</section>' +
             '</article>' +
             '<article>' +
+            '<h3>乐享商城(Hybrid)</h3>' +
+            '<section style="padding-left: 1rem;">' +
+            '<h4>项目职责：</h4>' +
+            '<span>主程该应用的开发任务。</span>' +
+            '<h4>项目实现：</h4>' +
+            '<span>Vue实现界面,Cordova打包.原生交互部分自定义插件（百川,开普勒）。</span>' +
+            '</section>' +
+            '</article>' +
+            '<article>' +
             '<h3>微信小程序（中国平安生态城）</h3>' +
             '<section style="padding-left: 1rem;">' +
             '<h4>项目职责：</h4>' +
@@ -159,19 +168,19 @@ const request = {
             {
               name: 'NewEco',
               image: 'https://os.ozukus.com/uploadfile/20190625/20190625123123_2554.png',
-              href: 'https://os.ozukus.com/newpay/',
+              href: 'https://os.ozukus.com/newpay/mobile_index.html#/',
               enable: false
             },
             {
               name: '族上一品',
               image: 'https://os.ozukus.com/uploadfile/20190603/20190603152646_4097.jpg',
-              href: 'https://os.ozukus.com/yiping/',
+              href: 'https://os.ozukus.com/yiping/mobile_index.html#/',
               enable: true,
             },
             {
-              name: '沃买商城',
-              image: 'https://os.ozukus.com/uploadfile/20190620/20190620223945_7609.png',
-              href: 'https://os.ozukus.com/womai/',
+              name: '乐享商城',
+              image: 'https://os.ozukus.com/uploadfile/20190930/20190930185302_4799.png',
+              href: 'https://os.ozukus.com/leshare/mobile_index.html#/',
               enable: true
             },
             {
@@ -206,7 +215,7 @@ const request = {
           detail: '<h3>Java</h3>' +
             '<ul>' +
             '<li>扎实的语言基础</li>' +
-            '<li>熟悉集合、IO、多线程、纤程、反射、长链接等开发</li>' +
+            '<li>熟悉集合、IO、多线程、反射、长链接等开发</li>' +
             '<li>Java7 - Java8</li>' +
             '</ul>'
         },
@@ -242,13 +251,12 @@ const request = {
           detail: '<h3>Go</h3>' +
             '<ul>' +
             '<li>熟悉IO、协程、Channel、Rpc gRpc等开发</li>' +
-            '<li>有gin框架开发经验</li>' +
             '</ul>'
         },
         {
           name: 'Python',
-          scope: 45,
-          percent: 0.45,
+          scope: 40,
+          percent: 0.40,
           detail: '<h3>Python</h3>' +
             '<ul>' +
             '<li>依赖DJango框架的使用和开发</li>' +
@@ -257,8 +265,8 @@ const request = {
         },
         {
           name: 'CentOS',
-          scope: 55,
-          percent: 0.55,
+          scope: 50,
+          percent: 0.50,
           print: true,
           detail: '<h3>CentOS</h3>' +
             '<ul>' +
@@ -270,14 +278,14 @@ const request = {
         },
         {
           name: 'JS',
-          scope: 60,
-          percent: 0.6,
+          scope: 70,
+          percent: 0.7,
           detail: null
         },
         {
           name: 'Vue',
-          scope: 72,
-          percent: 0.72,
+          scope: 75,
+          percent: 0.75,
           print: true,
           detail: '<h3>Vue</h3>' +
             '<ul>' +

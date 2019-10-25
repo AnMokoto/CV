@@ -9,7 +9,7 @@
       <el-col :sm="detailSpan" :xs="24">
         <template v-for="(item,index) in data">
           <div class="mine-print" :key="index" v-show="false"
-               style="width: 100% !important;text-align: left;">
+               style="width: 100% !important;text-align: left; overflow: hidden">
             <div v-html="item.detail" class="skill-box" v-show="item.print"></div>
           </div>
         </template>
@@ -132,8 +132,8 @@ export default {
     box-sizing border-box
 
   .skill-box
+    overflow hidden
     width 100%
-    overflow scroll
 
     >>> li
       font-size 0.85rem
