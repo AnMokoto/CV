@@ -1,3 +1,3 @@
 const CV = () => import(/*webpackChunkName:"CV"*/'./CV.vue')
 
-export { CV }
+export { CV as cv }

@@ -105,7 +105,7 @@ const request = {
           ]
         },
         {
-          timestamp: '2018/4 - 至今',
+          timestamp: '2018/4 - 2019/10',
           name: '深圳市吉氪科技有限公司',
           duties: 'Android/运维/H5/小程序',
           introduction: 'Android项目的开发，小程序开发，服务器环境搭建和服务部署，后台管理开发等<br/>' +
@@ -190,6 +190,33 @@ const request = {
               enable: false
             }
           ]
+        },
+        {
+          timestamp: '2020/4 - 至今',
+          name: '深圳市乐福衡器有限公司',
+          duties: 'Android开发工程师',
+          introduction:"",
+          product:[
+            {
+              name:"热量减肥法",
+              image: './images/com.pengpeng.avocado.png',
+              href: 'https://sj.qq.com/myapp/detail.htm?apkName=com.lefu.nutritionscale&info=1981CF16F1FD59B099D675A0597C7122',
+              enable: true
+            
+            },
+            {
+              name:"FoodScale",
+              image: 'https://pp.myapp.com/ma_icon/0/icon_54084949_1616502746/96',
+              href:'https://sj.qq.com/myapp/detail.htm?apkName=com.pengpeng.eightysix&info=4DB6BCB92A6783E70004BD45074573E9',
+              enable:true
+            },
+            {
+              name:"乐福能量云",
+              image: 'https://pp.myapp.com/ma_icon/0/icon_52582365_1610454715/96',
+              href: 'https://sj.qq.com/myapp/detail.htm?apkName=com.lefu.nutritionscale&info=1981CF16F1FD59B099D675A0597C7122',
+              enable: true
+            }
+          ]
         }
       ],
       skill: [
@@ -203,6 +230,7 @@ const request = {
             '<li>丰富的手机UI设计开发经验,良好的编程基础</li>' +
             '<li>多年的社交、钱包交易和直播经验</li>' +
             '<li>熟练自定义view编程、熟悉网络编程、多线程、图形界面编程、通讯协议等</li>' +
+            '<li>掌握和运用Jetpack 和 Compose 框架开发</li>' +
             '<li>熟悉Android性能及内存调优，能够对移动应用进行性能分析和优化</li>' +
             '<li>能独立承担Android产品开发、喜欢和善于学习新的技术和开源框架</li>' +
             '</ul>'
@@ -216,7 +244,6 @@ const request = {
             '<ul>' +
             '<li>扎实的语言基础</li>' +
             '<li>熟悉集合、IO、多线程、反射、长链接等开发</li>' +
-            '<li>Java7 - Java8</li>' +
             '</ul>'
         },
         {
@@ -229,58 +256,8 @@ const request = {
             '<li>良好的编程基础</li>' +
             '<li>熟练使用函数式和协程、反射等开发</li>' +
             '<li>熟练使用lambda表达式和开发Android</li>' +
+            '<li>已上线多款应用</li>' +
             '</ul>'
-        },
-        {
-          name: 'Flutter',
-          scope: 67,
-          percent: 0.67,
-          print: true,
-          detail: '<h3>Flutter</h3>' +
-            '<ul>' +
-            '<li>熟悉使用Dart编程、良好的编程基础</li>' +
-            '<li>熟悉Flutter开发三端应用</li>' +
-            '<li><a href="https://github.com/AnMokoto/EmptyName.git">参照</a></li>' +
-            '</ul>'
-        },
-        {
-          name: 'Go',
-          scope: 35,
-          percent: 0.35,
-          print: true,
-          detail: '<h3>Go</h3>' +
-            '<ul>' +
-            '<li>熟悉IO、协程、Channel、Rpc gRpc等开发</li>' +
-            '</ul>'
-        },
-        {
-          name: 'Python',
-          scope: 40,
-          percent: 0.40,
-          detail: '<h3>Python</h3>' +
-            '<ul>' +
-            '<li>依赖DJango框架的使用和开发</li>' +
-            '<li>熟悉语法和开发规范、语法糖等</li>' +
-            '</ul>'
-        },
-        {
-          name: 'CentOS',
-          scope: 50,
-          percent: 0.50,
-          print: true,
-          detail: '<h3>CentOS</h3>' +
-            '<ul>' +
-            '<li>熟练使用基础和常用命令</li>' +
-            '<li>有对搭建Docker容器和配置的经验</li>' +
-            '<li>熟练使用Nginx 搭建和部署服务</li>' +
-            '<li>有对服务自启动、一键配置启动、存活和容灾的处理经验</li>' +
-            '</ul>'
-        },
-        {
-          name: 'JS',
-          scope: 70,
-          percent: 0.7,
-          detail: null
         },
         {
           name: 'Vue',
