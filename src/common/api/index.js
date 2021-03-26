@@ -194,8 +194,19 @@ const request = {
         {
           timestamp: '2020/4 - 至今',
           name: '深圳市乐福衡器有限公司',
-          duties: 'Android开发工程师',
-          introduction:"",
+          duties: 'Android工程师',
+          introduction:"在司内担任安卓开发任务,任期内主导多款项目进行重构,对项目设计模式和简化开发的推广。<br/>" + 
+          "<article>"+
+          "<h3>岗位职责</h3>"+
+          "<section style='padding-left: 1rem;'>"+
+          "<h4>主职开发和维护‘热量减肥法’和‘营养秤’</h4>"+
+          "</section>"+
+          "</article>"+
+          ""+
+          ""+
+          ""+
+          ""+
+          "",
           product:[
             {
               name:"热量减肥法",

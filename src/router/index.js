@@ -7,9 +7,22 @@ Vue.use(Router)
 
 const router = new Router({
   mode: 'history',
-  routes: [
+  scrollBehavior (to) {
+    if (to.hash) {
+      return {
+        selector: to.hash,
+        behavior: 'smooth',
+      }
+  }
+  return { x: 0, y: 0 }
+},
+  routes: []
+})
+
+router.addRoutes(cv)
+router.addRoutes([
     {
-      path: '/',
+      path: '*',
       name: 'home',
       component: view.index,
       meta: {
@@ -24,10 +37,7 @@ const router = new Router({
     //   // which is lazy-loaded when the route is visited.
     //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
     // }
-  ]
-})
-
-router.addRoutes(cv)
+  ])
 
 router.afterEach((to) => {
   if (to.meta && to.meta.title) {
