@@ -40,6 +40,7 @@ jobs:
           yarn upgrade
           yarn install
           yarn build
+          cp dist/index.html dist/404.html
       # deploy    
       - name: DEPLOY 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
