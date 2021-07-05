@@ -12,7 +12,7 @@ install:
 
 script:
   - yarn build
-
+  - cp dist/index.html dist/404.html
 branches:
   only:
     - master
