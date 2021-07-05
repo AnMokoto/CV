@@ -6,7 +6,7 @@ import * as view from '@/views'
 Vue.use(Router)
 
 const router = new Router({
-  mode: 'history',
+  mode: 'hash',
   scrollBehavior (to) {
     if (to.hash) {
       return {
