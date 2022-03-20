@@ -206,7 +206,7 @@ const request = {
             "<h3>主要贡献</h3>" +
             "<section style='padding-left: 1rem;'>" +
             "<h4>重构</h4>" +
-            "<ul>"
+            "<ul>" +
             "<li><span>对\"热量减肥法\"等项目进行架构层重构,并全面介入Jetpack生态</span></li>"+
             "<li><span>项目进行统一管理,统一组件化进行模块划分,加入MVVM和线程调度等,提高项目扩展能力</span></li>" +
             "<li><span>项目全面遵循设计模式和MVVM架构进行设计,并利用 CheckStyle & Lint 等对项目进行检测,提升软件代码规范</span></li>" +
