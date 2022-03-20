@@ -192,45 +192,110 @@ const request = {
           ]
         },
         {
-          timestamp: '2020/4 - 至今',
+          timestamp: '2020/4 - 2021/7',
           name: '深圳市乐福衡器有限公司',
           duties: 'Android工程师',
-          introduction:"在司内担任安卓开发任务,任期内主导多款项目进行重构,对项目设计模式和简化开发的推广。<br/>" + 
-          "<article>"+
-          "<h3>岗位职责</h3>"+
-          "<section style='padding-left: 1rem;'>"+
-          "<h4>主职开发和维护‘热量减肥法’和‘营养秤’</h4>"+
-          "</section>"+
-          "</article>"+
-          ""+
-          ""+
-          ""+
-          ""+
-          "",
-          product:[
+          introduction: "在司内担任安卓开发任务,任期内主导多款项目进行重构,对项目设计模式和简化开发的推广。<br/>" +
+            "<article>" +
+            "<h3>岗位职责</h3>" +
+            "<section style='padding-left: 1rem;'>" +
+            "<h4>主职开发和维护‘热量减肥法’和‘营养秤’</h4>" +
+            "</section>" +
+            "</article>" +
+            "<article>" +
+            "<h3>主要贡献</h3>" +
+            "<section style='padding-left: 1rem;'>" +
+            "<h4>重构</h4>" +
+            "<ul>"
+            "<li><span>对\"热量减肥法\"等项目进行架构层重构,并全面介入Jetpack生态</span></li>"+
+            "<li><span>项目进行统一管理,统一组件化进行模块划分,加入MVVM和线程调度等,提高项目扩展能力</span></li>" +
+            "<li><span>项目全面遵循设计模式和MVVM架构进行设计,并利用 CheckStyle & Lint 等对项目进行检测,提升软件代码规范</span></li>" +
+            "<li><span>规范命名,遵循开发规范</span></li>" +
+            "</ul>" +
+            "<h4>优化</h4>" +
+            "<ul>" +
+            "<li><span>利用StudioProfile & Mat & BlockCanary & Leak 等对项目进行检测,并解决性能瓶颈和内存泄漏等问题</span></li>" +
+            "<li><span>通过混淆, png to webp & svg , AndResGuard 等策略对项目大小进行压缩 </span></li>" +
+            "</ul>" +
+            "<h4>成绩</h4>" +
+            "<ul>" +
+            "<li><span>在职期间“热量减肥法”突破百万用户</span></li>" +
+            "<li><span>稳定项目异常崩溃率在1%下</span></li>" +
+            "<li><span>实现项目半配置化动态生成技术</span></li>" +
+            "</ul>" +
+            "</section>" +
+            "</article>",
+          product: [
             {
-              name:"热量减肥法",
+              name: "热量减肥法",
               image: './images/com.pengpeng.avocado.png',
               href: 'https://sj.qq.com/myapp/detail.htm?apkName=com.lefu.nutritionscale&info=1981CF16F1FD59B099D675A0597C7122',
               enable: true
-            
+
             },
             {
-              name:"FoodScale",
+              name: "FoodScale",
               image: 'https://pp.myapp.com/ma_icon/0/icon_54084949_1616502746/96',
-              href:'https://sj.qq.com/myapp/detail.htm?apkName=com.pengpeng.eightysix&info=4DB6BCB92A6783E70004BD45074573E9',
-              enable:true
+              href: 'https://sj.qq.com/myapp/detail.htm?apkName=com.pengpeng.eightysix&info=4DB6BCB92A6783E70004BD45074573E9',
+              enable: true
             },
             {
-              name:"乐福能量云",
+              name: "乐福能量云",
               image: 'https://pp.myapp.com/ma_icon/0/icon_52582365_1610454715/96',
               href: 'https://sj.qq.com/myapp/detail.htm?apkName=com.lefu.nutritionscale&info=1981CF16F1FD59B099D675A0597C7122',
+              enable: true
+            }
+          ]
+        },
+        {
+          timestamp: '2021/7 - 至今',
+          name: '深圳市轻松企业管理集团有限公司',
+          duties: '腾讯音乐项目组-技术负责人',
+          introduction:
+            "公司与腾讯音乐娱乐集团深度合作,负责酷狗音乐在\"IOT,车载大屏,可穿戴\"K歌方案的商务合作与技术开发支持.</br>" +
+            "我在司期间担任项目组技术负责人,主导\"酷狗唱唱\"项目的架构与开发,项目进度等.<br/>" +
+            "<article>" +
+            "<h3>岗位职责</h3>" +
+            "<section style='padding-left: 1rem;'>" +
+            "<span>1. 主导和设计项目框架</span></br>" +
+            "<span>2. 推进项目进度与厂商技术支持</span></br>" +
+            "<span>3. 后端微服务与服务器分布式运维</span></br>" +
+            "</section>" +
+            "</article>" +
+            "<article>" +
+            "<h3>岗位职责</h3>" +
+            "<section style='padding-left: 1rem;'>" +
+            "<h3>主要贡献</h3>"+
+            "<span>1. 利用OAuth2搭建多商户多用户管理平台</span>"+
+            "<span>2. 基于SpringCloud + AlibabaCloud 完成微服务开发</span>"+
+            "<span>3. 搭配ASM技术开发与设计Android端插件自动注册框架</span>"+
+            "<span>4. 完善分布式开发,利用k8s部署和管理微服务</span>"+
+            "<span>5. 推进项目上线,提供厂商技术支持</span>"+
+            "</section>" +
+            "</article>" +
+            "",
+          product: [
+            {
+              name: "酷狗唱唱",
+              image: 'http://acsing.kugou.com/sing7/static/staticPub/images/_e91c5e3.png',
+              href: 'http://acsing.kugou.com/sing7/static/staticPub/mobile/download/views/index.html?source=weibo',
               enable: true
             }
           ]
         }
       ],
       skill: [
+        {
+          name: 'K8s',
+          scope: 60,
+          percent: 0.60,
+          print: true,
+          detail: '<h3>K8s 容器化服务部署与运维</h3>' +
+            '<ul>' +
+            '<li>扎实的语言基础</li>' +
+            '<li>熟悉集合、IO、多线程、反射、长链接等开发</li>' +
+            '</ul>'
+        },
         {
           name: 'Android',
           scope: 80,
