@@ -263,13 +263,12 @@ const request = {
             "</section>" +
             "</article>" +
             "<article>" +
-            "<h3>岗位职责</h3>" +
+            "<h3>主要贡献</h3>" +
             "<section style='padding-left: 1rem;'>" +
-            "<h3>主要贡献</h3>"+
-            "<span>1. 利用OAuth2搭建多商户多用户管理平台</span>"+
-            "<span>2. 基于SpringCloud + AlibabaCloud 完成微服务开发</span>"+
-            "<span>3. 搭配ASM技术开发与设计Android端插件自动注册框架</span>"+
-            "<span>4. 完善分布式开发,利用k8s部署和管理微服务</span>"+
+            "<span>1. 利用OAuth2搭建多商户多用户管理平台</span><br/>"+
+            "<span>2. 基于SpringCloud + AlibabaCloud 完成微服务开发</span><br/>"+
+            "<span>3. 搭配ASM技术开发与设计Android端插件自动注册框架</span><br/>"+
+            "<span>4. 完善分布式开发,利用k8s部署和管理微服务</span><br/>"+
             "<span>5. 推进项目上线,提供厂商技术支持</span>"+
             "</section>" +
             "</article>" +
