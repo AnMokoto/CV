@@ -265,19 +265,26 @@ const request = {
             "<article>" +
             "<h3>主要贡献</h3>" +
             "<section style='padding-left: 1rem;'>" +
-            "<span>1. 利用OAuth2搭建多商户多用户管理平台</span><br/>"+
+            "<span>1. 利用OAuth2搭建多商户多用户管理平台,和开放平台</span><br/>"+
             "<span>2. 基于SpringCloud + AlibabaCloud 完成微服务开发</span><br/>"+
             "<span>3. 搭配ASM技术开发与设计Android端插件自动注册框架</span><br/>"+
             "<span>4. 完善分布式开发,利用k8s部署和管理微服务</span><br/>"+
             "<span>5. 推进项目上线,提供厂商技术支持</span>"+
+            "<span>6. 从0到1主导完成‘酷狗唱唱’和‘轻松支付’的架构和研发</span>"+
             "</section>" +
             "</article>" +
             "",
           product: [
             {
-              name: "酷狗唱唱",
+              name: "酷狗唱唱（酷狗K歌版）",
               image: 'http://acsing.kugou.com/sing7/static/staticPub/images/_e91c5e3.png',
               href: 'http://acsing.kugou.com/sing7/static/staticPub/mobile/download/views/index.html?source=weibo',
+              enable: true
+            },
+            {
+              name: "轻松聚合支付",
+              image: '',
+              href: '',
               enable: true
             }
           ]
@@ -294,6 +301,22 @@ const request = {
             '<li>分布式部署和完善的项目运维经验</li>' +
             '</ul>'
         },
+       {
+          name: 'JAVA',
+          scope: 70,
+          percent: 0.70,
+          print: true,
+          detail: '<h3>后台服务分布式开发</h3>' +
+            '<ul>' +
+            '<li>SpringCloud全家桶</li>' +
+            '<li>AlibabaCloud全家桶</li>' +
+            '<li>OAuth2权限管理</li>' +
+            '<li>微服务架构/分布式部署</li>' +
+            '<li>分布式事务/链路跟踪/熔断降级</li>' +
+            '<li>扎实的语言基础</li>' +
+            '<li>熟悉集合、IO、多线程、反射、长链接等开发</li>' +
+            '</ul>'
+        },
         {
           name: 'Android',
           scope: 80,
@@ -307,17 +330,6 @@ const request = {
             '<li>掌握和运用Jetpack 和 Compose 框架开发</li>' +
             '<li>熟悉Android性能及内存调优，能够对移动应用进行性能分析和优化</li>' +
             '<li>能独立承担Android产品开发、喜欢和善于学习新的技术和开源框架</li>' +
-            '</ul>'
-        },
-        {
-          name: 'Java',
-          scope: 70,
-          percent: 0.70,
-          print: true,
-          detail: '<h3>Java</h3>' +
-            '<ul>' +
-            '<li>扎实的语言基础</li>' +
-            '<li>熟悉集合、IO、多线程、反射、长链接等开发</li>' +
             '</ul>'
         },
         {
