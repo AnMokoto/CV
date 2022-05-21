@@ -96,11 +96,11 @@ const request = {
             '<article>' +
             '<section style="padding-left: 1rem;">' +
             '<h4>项目职责：</h4>' +
-            'Android项目的开发，小程序开发，服务器环境搭建和服务部署，后台管理开发等<br/>'
+            'Android项目的开发，小程序开发，服务器环境搭建和服务部署，后台管理开发等<br/>' +
             '<ul>' +
-              '<li>公司项目Android端的架构和开发。</li>'
-              '<li>对服务器（CentOS）进行项目部署配置。（Nginx + services[systemctl]），包括不限于代理，数据库，服务监听保活和容灾处理。</li>'
-              '<li>公司商城项目（沃买）后台开发 和 中国平安生态城 小程序开发</li>'
+              '<li>公司项目Android端的架构和开发。</li>' +
+              '<li>对服务器（CentOS）进行项目部署配置。（Nginx + services[systemctl]），包括不限于代理，数据库，服务监听保活和容灾处理。</li>'+
+              '<li>公司商城项目（沃买）后台开发 和 中国平安生态城 小程序开发</li>'+
             '</ul>
             '</section>' +
             '</article>',
