@@ -188,7 +188,7 @@ const request = {
           ]
         },
         {
-          timestamp: '2021/7 - 至今',
+          timestamp: '2021/7 - 2022/6',
           name: '深圳市轻松企业管理集团有限公司',
           duties: '腾讯音乐项目组-项目组技术负责人（Java,Web,Android,DevOps,FR）',
           introduction:
@@ -229,6 +229,11 @@ const request = {
               enable: true
             }
           ]
+        },
+        {
+          timestamp: '2022/06 - 至今',
+          name: 'CVTE',
+          duties: '部门经理'
         }
       ],
       skill: [
